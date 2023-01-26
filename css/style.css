@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #F2F8F7;
+    color: #152921;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 1.35em;
+}
+#app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+#app > *, ul {
+    margin-bottom: 30px;
+}
+h2, h3 {
+    text-align: center;
+}
+ul li {
+    margin: 20px 0 20px 20px;
+}
